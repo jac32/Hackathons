@@ -1,0 +1,32 @@
+
+
+/*
+  TODO: Send command to move forward via socket
+*/
+function forwardMove(distance) {
+    print("forwardMove");
+}
+
+/* 
+  TODO: Send command to move backward via socket
+*/
+function backwardMove(distance) {
+    print("backwardMove");
+}
+
+/*
+  TODO: Send command to turn left by a number of degrees via socket
+  - degrees will be rounded to the nearest 5 
+*/
+function leftTurn(angle) {
+    print("leftTurn");
+}
+
+
+/*
+  TODO: Send command to turn right by a number of degrees via socket
+  - degrees will be rounded to the nearest 5 
+*/
+function rightTurn(angle) {
+    print("rightTurn");
+}

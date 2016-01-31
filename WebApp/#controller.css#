@@ -1,0 +1,24 @@
+.sidepanel {
+    height: 100%;
+    width: 33%;
+    float: left;
+    background-color: #333;
+    position: absolute;
+
+			  
+}
+.infopane {
+    height: 100%;
+    width: 66%;
+    position: absolute;
+    left: 33%;
+}
+
+body {
+    background-color: #222;
+    color: white;
+    padding: 0px;
+    margin: 0px;
+}
+
+

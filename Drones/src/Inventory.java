@@ -1,5 +1,4 @@
-import java.util.HashMap;
-
+import java.util.*;
 /**
  * Created by gregory on 11/02/16.
  */
@@ -11,12 +10,25 @@ public abstract class Inventory {
 
     private HashMap<Integer, Integer> inventory;
 
+    static List<Warehouse> warehouses = new ArrayList<Warehouse>();
+    static List<Customer> customers = new ArrayList<Customer>();
+    static List<Drone> drones = new ArrayList<Drone>();
+
     public Inventory(int locX, int locY)
     {
         this.locX  = locX;
         this.locY = locY;
 
         inventory = new HashMap<>();
+    }
+
+    private static void removeProducts()
+    {
+        for(Warehouse warehouse : warehouses)
+        {
+
+        }
+
     }
 
     public Inventory(Inventory inventory){

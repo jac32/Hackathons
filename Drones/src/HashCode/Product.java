@@ -1,3 +1,5 @@
+package HashCode;
+
 /**
  * Created by kf39 on 11/02/16.
  */

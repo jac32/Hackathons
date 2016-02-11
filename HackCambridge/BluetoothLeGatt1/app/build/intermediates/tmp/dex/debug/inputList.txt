@@ -1,0 +1,2 @@
+/Users/mohammedsaadat/Desktop/BluetoothLeGatt1/app/build/intermediates/classes/debug
+/Users/mohammedsaadat/Desktop/BluetoothLeGatt1/app/build/intermediates/pre-dexed/debug/java_websocket-c062182d9302c82837091938e486708f8810238f.jar

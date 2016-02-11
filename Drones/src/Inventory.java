@@ -24,7 +24,11 @@ public abstract class Inventory {
     }
 
     public void setInventory(int productId, int qty){
+        inventory.put(productId, qty);
+    }
 
+    public int getInventory(int productId){
+        return inventory.get(productId);
     }
 
     public int getLocX() {

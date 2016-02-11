@@ -6,3 +6,11 @@ public class Load extends Event {
     Int product;
     Int quantity;
 }
+
+
+public Load (Drone drone, Customer customer, Product product, Int quantity) {
+    this.drone = drone;
+    this.customer = customer;
+    this.product = product;
+    this.quantity = quantity;
+}
